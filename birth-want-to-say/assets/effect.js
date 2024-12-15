@@ -3,6 +3,13 @@ $(window).load(function () {
     $('.container').fadeIn('fast');
 });
 $('document').ready(function () {
+    $('#b3').css('cursor', 'pointer').click(function() {
+        window.open('https://www.californiossf.com/#', '_blank');
+    });
+    $('#b7').css('cursor', 'pointer').click(function() {
+        window.open('https://www.ateliercrenn.com/', '_blank');
+    });
+
     var vw;
     $(window).resize(function () {
         vw = $(window).width() / 2;
